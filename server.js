@@ -30,12 +30,12 @@ app.use((req,res,next) => {
     next();
 })
 
-app.use((req,res,next) => {
-    res.render("landerPage.hbs", {
-        pageTitle: "Coming Soon"
-    })
+// app.use((req,res,next) => {
+//     res.render("landerPage.hbs", {
+//         pageTitle: "Coming Soon"
+//     })
     
-})
+// })
 
 app.use(express.static(__dirname+"/public"));
 
