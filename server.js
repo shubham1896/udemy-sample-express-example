@@ -62,6 +62,6 @@ app.get('/bad', (req,res) => {
     })
 })
 
-app.listen(port, () => {
+app.listen(port, function() {
     console.log("Server started at port: 3000");
 })
